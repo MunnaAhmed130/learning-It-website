@@ -14,7 +14,7 @@ const About = () => {
     return (
         <div>
             <Container>
-                <Row md={3} lg={3} className='g-4 pb-4 pt-4'>
+                <Row md={3} lg={4} className='g-4 pb-4 pt-4'>
                     {
                 teachers.map(teacher => <Teachers teacher={teacher}
                 key={teacher.id}></Teachers>)

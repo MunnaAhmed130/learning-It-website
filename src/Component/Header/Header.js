@@ -12,11 +12,11 @@ const Header = () => {
         <div className='header'>
             <Container fluid>
                 <Row>
-                    <Col md={4} ><p className='logo'>Learning</p></Col>
+                    <Col md={4} ><p className='logo'>Learning IT</p></Col>
                     <Col md={8}>
                     <NavLink to='/home' className='link' activeStyle={activeStyle}>Home</NavLink>
                 <NavLink to='/about' className='link' activeStyle={activeStyle}>About</NavLink>
-                <NavLink to='/courses' className='link' activeStyle={activeStyle}>Courses</NavLink>
+                <NavLink to='/services' className='link' activeStyle={activeStyle}>Services</NavLink>
                         <NavLink to='/dashboard' className='link' activeStyle={activeStyle}>Dashboard</NavLink>
                     </Col>
                 </Row>

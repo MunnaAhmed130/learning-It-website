@@ -15,7 +15,7 @@ const Banner = () => {
     return (
         <div className="banner">
             <h1>Best Online Courses</h1>
-            <p>We have best online courses and learning environment for you . we also have teachers that helps you understand  advance concept. Our goal is to provide service. </p>
+            <p>We have best online courses and learning environment for you . we also have teachers that helps you understand  advance concept. Our goal is to provide service and teach real skills. </p>
             <Button className='banner-btn' variant='success' onClick={handleCourses}> Our Courses</Button>
             <Button className='banner-btn about-btn' onClick={handleAbout}> About us</Button>
         </div>

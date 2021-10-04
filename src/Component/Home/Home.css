@@ -3,9 +3,9 @@
     background-color: rgba(128, 128, 128, 0.397);
 }
 
-.left h1{
+/* .left h1{
     margin-bottom: ;
-}
+} */
 
 .right{
     padding-block: 50px;
@@ -30,6 +30,8 @@
 .form-fill{
     display: grid;
     grid-template-columns: repeat(1fr 2);
+    /* border: 1px solid black; */
+    margin: 20px;
 }
 
 

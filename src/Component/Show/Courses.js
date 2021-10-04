@@ -1,16 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { Button, Card, Col, Row } from 'react-bootstrap';
-import './Course.css'
+import './Courses.css'
 
-const Course = (props) => {
-    const element = <FontAwesomeIcon icon={faCoffee} />
-    console.log(props.course)
-    const { course_name, classes , course_duration , img} = props.course;
+const Courses = (props) => {
+    const {img,course_name,classes,course_duration,price}=props.service
     return (
-        <div className=''>
-                <Card  className=''>
+        <div>
+                            <Card className=''>
                     <Card.Img variant="top" src={img} className='card-img'/>
                 <Card.Body>
                     <Card.Title>{course_name}</Card.Title>
@@ -23,7 +19,10 @@ const Course = (props) => {
                             <Col className='border-end'> {course_duration}</Col>
                             <Col >Class Size :{classes.count} </Col>
                     </Row>
-                <Button variant="primary"> {element}Buy Now</Button>
+                    <Row lg={2}>
+                        <p className='pt-3 price'>Price: {price} $</p>
+                        <Button className='buy-btn' variant="primary">Buy Now</Button>
+                    </Row>
                 </Card.Body>
                 </Card>
 
@@ -31,4 +30,4 @@ const Course = (props) => {
     );
 };
 
-export default Course;
+export default Courses;

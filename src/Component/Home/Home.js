@@ -1,12 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button,  Col, Container, Dropdown, Form, Row } from 'react-bootstrap';
 import Banner from '../Banner/Banner';
+import Course from '../Service/Service';
+import Services from '../Services/Services';
+import Courses from '../Show/Courses';
 import './Home.css'
 
 const Home = () => {
+    const [services ,setServices] = useState([])
+    useEffect(() => {
+        fetch('./fakeService4.Json')
+            .then(res => res.json())
+        .then(data => setServices(data))
+    },[])
     return (
         <div className='home'>
             <Banner></Banner>
+            <Container className='p-5'>
+                <h2 className='pb-3'>Our Most Popular Courses</h2>
+                <Row lg={3} className='g-4 '>
+                {
+                    services.map(service => <Courses key={service.id}
+                    service ={service}></Courses>)
+                }
+                </Row>
+
+            </Container>
             <Container fluid>
                 <Row>
                     <Col className='left'>
@@ -35,7 +54,7 @@ const Home = () => {
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             {/* <Form.Label>Email address</Form.Label> */}
                             <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
+                            <Form.Text className="text-white">
                             We'll never share your email with anyone else.
                             </Form.Text>
                         </Form.Group>

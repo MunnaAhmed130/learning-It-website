@@ -6,9 +6,8 @@ import {BrowserRouter , Switch , Route} from 'react-router-dom';
 import Home from './Component/Home/Home';
 import NotFound from './Component/NotFound/NotFound';
 import About from './Component/About/About';
-// import Services from './Component/Services/Services';
-import Courses from './Component/Courses/Courses';
 import Dashboard from './Component/Dashboard/Dashboard';
+import Services from './Component/Services/Services';
 
 function App() {
   return (
@@ -25,8 +24,8 @@ function App() {
           <Route path='/about'>
             <About></About>
           </Route>
-          <Route path='/courses'>
-            <Courses></Courses>
+          <Route path='/services'>
+            <Services></Services>
           </Route>
           <Route path='/dashboard'>
             <Dashboard></Dashboard>

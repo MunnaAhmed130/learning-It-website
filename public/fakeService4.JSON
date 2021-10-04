@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "course_name": "Web Development",
+        "img":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
+    },
+    {
+        "id": 2,
+        "course_name": "Software Development",
+        "img":"https://www.datadriveninvestor.com/wp-content/uploads/2020/01/softwaredevelopment.png",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
+    },
+    {
+        "id": 3,
+        "course_name": "Adobe Photoshop",
+        "img":"https://petapixel.com/assets/uploads/2020/06/pslogo.jpg",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
+    },
+    {
+        "id": 4,
+        "course_name": "Adobe Illustrator",
+        "img":"http://vectorlogo4u.com/wp-content/uploads/2020/11/adobe-illustrator-cc-logo.png",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
+    }
+]

@@ -8,7 +8,8 @@
             "count": 20,
             "duration": "2 hours 30 min"
         },
-        "course_duration": "6 month"
+        "course_duration": "6 month",
+        "price": 30
     },
     {
         "id": 2,
@@ -19,7 +20,8 @@
             "count": 20,
             "duration": "2 hours 30 min"
         },
-        "course_duration": "6 month"
+        "course_duration": "6 month",
+        "price": 30
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@
             "count": 20,
             "duration": "2 hours 30 min"
         },
-        "course_duration": "6 month"
+        "course_duration": "6 month",
+        "price": 30
     },
     {
         "id": 4,
@@ -41,7 +44,8 @@
             "count": 20,
             "duration": "2 hours 30 min"
         },
-        "course_duration": "6 month"
+        "course_duration": "6 month",
+        "price": 30
     },
     {
         "id": 5,
@@ -52,6 +56,31 @@
             "count": 20,
             "duration": "2 hours 30 min"
         },
-        "course_duration": "6 month"
+        "course_duration": "6 month",
+        "price": 30
+    },
+    {
+        "id": 6,
+        "course_name": "Adobe Photoshop",
+        "img":"https://petapixel.com/assets/uploads/2020/06/pslogo.jpg",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
+    },
+    {
+        "id": 7,
+        "course_name": "Adobe Illustrator",
+        "img":"http://vectorlogo4u.com/wp-content/uploads/2020/11/adobe-illustrator-cc-logo.png",
+        "rating": 4.5,
+        "classes": {
+            "count": 20,
+            "duration": "2 hours 30 min"
+        },
+        "course_duration": "6 month",
+        "price": 30
     }
 ]
