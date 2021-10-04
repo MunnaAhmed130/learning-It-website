@@ -6,7 +6,7 @@ import './Banner.css'
 const Banner = () => {
     const history = useHistory();
     const handleCourses = () => {
-        history.push('/courses')
+        history.push('/services')
     }
     const handleAbout = () => {
         history.push('/about')

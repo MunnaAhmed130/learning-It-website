@@ -4,6 +4,7 @@
         "course_name": "Web Development",
         "img":"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200203200336/13-Things-You-Should-Know-Before-You-Enter-In-Web-Development.png",
         "rating": 4.5,
+        "description":"We teach from basic to pro level student.We make them ready for their career by giving them real life projects....",
         "classes": {
             "count": 20,
             "duration": "2 hours 30 min"
@@ -16,6 +17,7 @@
         "course_name": "Software Development",
         "img":"https://www.datadriveninvestor.com/wp-content/uploads/2020/01/softwaredevelopment.png",
         "rating": 4.5,
+        "description":"We teach from basic to pro level student.We make them ready for their career by giving them real life projects....",
         "classes": {
             "count": 20,
             "duration": "2 hours 30 min"
@@ -28,6 +30,7 @@
         "course_name": "Adobe Photoshop",
         "img":"https://petapixel.com/assets/uploads/2020/06/pslogo.jpg",
         "rating": 4.5,
+        "description":"We teach from basic to pro level student.We make them ready for their career by giving them real life projects....",
         "classes": {
             "count": 20,
             "duration": "2 hours 30 min"
@@ -40,6 +43,7 @@
         "course_name": "Adobe Illustrator",
         "img":"http://vectorlogo4u.com/wp-content/uploads/2020/11/adobe-illustrator-cc-logo.png",
         "rating": 4.5,
+        "description":"We teach from basic to pro level student.We make them ready for their career by giving them real life projects....",
         "classes": {
             "count": 20,
             "duration": "2 hours 30 min"
