@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBook, faCoffee, faGraduationCap, faSmile, faUser } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBook, faGraduationCap, faSmile, faUser } from '@fortawesome/free-solid-svg-icons';
 import { Col, Container, Row } from 'react-bootstrap';
 import Teachers from '../Teachers/Teachers';
 import './About.css'
 
 const About = () => {
-    const element = <FontAwesomeIcon icon={faCoffee} />
     const [ teachers , setTeachers ]= useState([])
     useEffect(() => {
         fetch('/fakeTeacherData.JSON')
             .then(res => res.json())
         .then(data => setTeachers(data))
     }, [])
-    console.log(teachers)
     return (
         <div>
             <Container fluid>
@@ -56,12 +54,12 @@ const About = () => {
                 <h2 className='p-4'>Our Best Teachers</h2>
                 <Row md={3} lg={4} className='g-4 pb-4 pt-4'>
                     {
-                teachers.map(teacher => <Teachers teacher={teacher}
-                key={teacher.id}></Teachers>)
-            }
+                        teachers.map(teacher => <Teachers
+                            teacher={teacher}
+                            key={teacher.id}></Teachers>)
+                    }
                 </Row>
             </Container>
-  
         </div>
     );
 };

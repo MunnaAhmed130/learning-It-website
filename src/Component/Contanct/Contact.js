@@ -10,45 +10,42 @@ const Contact = () => {
         <div>
             <Form className='form'>
                 <h2>Contact Us</h2>
-            <Row lg={2}>
-                <Col>
-                    <Form.Group as={Row} className="" controlId="">
-                        <Col sm={10} className='input'>
-                        <Form.Control type="name" placeholder="First name" />
-                        </Col>
-                    </Form.Group>
-                </Col>
-                <Col>
-                    <Form.Group as={Row} className="" controlId="">
-                        <Col sm={10} className='input'>
-                        <Form.Control type="name" placeholder="Last name" />
-                        </Col>
-                    </Form.Group>
-                </Col>
-                <Col>
-                    <Form.Group as={Row} className="" controlId="formHorizontalEmail">
-                        <Col sm={10} className='input'>
-                        <Form.Control type="email" placeholder="Email" />
-                        </Col>
-                    </Form.Group>
-                </Col>
-                <Col>
-                    <Form.Group as={Row} className="" controlId="formHorizontalPassword">
-                        <Col sm={10} className='input'>
-                        <Form.Control type="password" placeholder="Password" />
-                        </Col>
-                    </Form.Group>
-                    <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
-                        <Col sm={{ span: 10, offset: 2 }}>
-                        <Form.Check label="Remember me" />
-                        </Col>
-                    </Form.Group>
-                </Col>
+                <Row lg={2}>
+                    <Col>
+                        <Form.Group as={Row} className="" controlId="firstName">
+                            <Col sm={10} className='input'>
+                                <Form.Control type="name" placeholder="First name" />
+                            </Col>
+                        </Form.Group>
+                    </Col>
+                    <Col>
+                        <Form.Group as={Row} className="" controlId="lastName">
+                            <Col sm={10} className='input'>
+                                <Form.Control type="name" placeholder="Last name" />
+                            </Col>
+                        </Form.Group>
+                    </Col>
+                    <Col>
+                        <Form.Group as={Row} className="" controlId="formHorizontalEmail">
+                            <Col sm={10} className='input'>
+                                <Form.Control type="email" placeholder="Email" />
+                            </Col>
+                        </Form.Group>
+                    </Col>
+                    <Col>
+                        <Form.Group as={Row} className="" controlId="formHorizontalPassword">
+                            <Col sm={10} className='input'>
+                                <Form.Control type="password" placeholder="Password" />
+                            </Col>
+                        </Form.Group>
+                        <Form.Group as={Row} className="mb-3" controlId="formHorizontalCheck">
+                            <Col sm={{ span: 10, offset: 2 }}>
+                                <Form.Check label="Remember me" />
+                            </Col>
+                        </Form.Group>
+                    </Col>
                 </Row>
-                <Button variant="success" className='submit-btn2' type="submit">
-                            Submit
-                        </Button>
-      
+                <Button variant="success" className='submit-btn2' type="submit">Submit</Button>
             </Form>
             <div className='footer-contact'>
                 <p>203, Envato Labs, Behind Alis Steet, Melbourne, Australia.</p>
