@@ -1,0 +1,37 @@
+.banner{
+    background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8eW91bmclMjB3b3JrZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    height: 650px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.404);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    color: white;
+    padding-top: 150px;
+    font-size: 5rem;
+
+}
+
+.banner p{
+    width: 800px;
+    margin: auto;
+    padding-block: 20px;
+}
+
+.banner{
+    color: white;
+}
+
+.banner-btn{
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+.about-btn{
+    border: 1px solid rgba(73, 73, 223, 0.678);
+    background-color: transparent;
+}

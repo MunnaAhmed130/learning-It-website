@@ -1,0 +1,35 @@
+.left{
+    padding-block: 50px;
+    background-color: rgba(128, 128, 128, 0.397);
+}
+
+.left h1{
+    margin-bottom: ;
+}
+
+.right{
+    padding-block: 50px;
+    color: white;
+    background-color: teal;
+}
+
+.drop-button{
+    background-color: teal;
+    border: 1px solid white;
+    color: white;
+    width: 300px;
+
+}
+
+.submit{
+    height: 50px;
+    width: 200px;
+    margin-inline: auto;
+}
+
+.form-fill{
+    display: grid;
+    grid-template-columns: repeat(1fr 2);
+}
+
+
