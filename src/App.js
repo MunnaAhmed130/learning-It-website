@@ -8,7 +8,7 @@ import NotFound from './Component/NotFound/NotFound';
 import About from './Component/About/About';
 import Dashboard from './Component/Dashboard/Dashboard';
 import Services from './Component/Services/Services';
-import Contact from './Component/Contanct/Contact';
+import Contact from './Component/Contact/Contact';
 
 function App() {
   return (
