@@ -15,7 +15,7 @@ const Header = () => {
                     <Col md={4} ><p className='logo'>Learning IT</p></Col>
                     <Col md={8}>
                         <NavLink to='/home' className='link' activeStyle={activeStyle}>Home</NavLink>
-                        <NavLink to='/about' className='link' activeStyle={activeStyle}>About</NavLink>
+                        <NavLink to='/about' className='link' activeStyle={activeStyle}>About Us</NavLink>
                         <NavLink to='/services' className='link' activeStyle={activeStyle}>Services</NavLink>
                         <NavLink to='/contact' className='link' activeStyle={activeStyle}>Contact</NavLink>
                         <NavLink to='/dashboard' className='link' activeStyle={activeStyle}>Dashboard</NavLink>
